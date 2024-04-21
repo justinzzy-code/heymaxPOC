@@ -1,6 +1,6 @@
 # Description
 
-This is a POC for Peer-to-Peer (P2P) Book Exchange Platform. This web application will facilitate the easy listing, searching, and exchanging of books among users. The current product is unfinished and only features the only the **backend's main features**. 
+This is a POC for Peer-to-Peer (P2P) Book Exchange Platform. This web application will facilitate the easy listing, searching, and exchanging of books among users. The current product is unfinished and only features the only the **backend's main features using Django REST API and Python**.
 
 # Setup: 
 Navigate to backend folder and run `python ./manage.py makemigrations` followed by `python ./manage.py migrate`
@@ -11,14 +11,19 @@ To create a user: py manage.py createsuperuser. [Follow this tutorial](https://w
 
 Navigate to backend folder and run `python ./manage.py runserver`
 
-# Tips:
+
+# Tips to Explore Project:
 
 Create a one user and have them add and list various books.
+
 Create a second user and them add and list various (different) books.
 
 Now both users can make exchange requests and comments on the other's listed books. Two such users have been pre-created for convenience. You can also create your own under the endpoint: `accounts/register/`
 
+Explore the various API endpoints.
+
 Premade User 1:  `Username: a, Password: a` 
+
 Premade User 2: `Username: b, Password: b`
 
 
