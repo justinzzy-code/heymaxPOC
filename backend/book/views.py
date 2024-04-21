@@ -257,6 +257,3 @@ class HostUpdateRequestStatus(RetrieveUpdateAPIView):
 
         
 
-##TODO
-##Delete book -> delete requests for that book
-#Book Avaliability change to available start date and end dates
