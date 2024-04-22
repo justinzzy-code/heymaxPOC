@@ -6,6 +6,7 @@ This is a POC for Peer-to-Peer (P2P) Book Exchange Platform. This web ap
 # Version Requirements
 
 Django 4.2.6
+
 Python 3.9.7
 
 
