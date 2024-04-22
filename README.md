@@ -2,6 +2,13 @@
 
 This is a POC for Peer-to-Peer (P2P) Book Exchange Platform. This web application will facilitate the easy listing, searching, and exchanging of books among users. The current product is unfinished and only features the only the **backend's main features using Django REST API and Python**.
 
+
+# Version Requirements
+
+Django 4.2.6
+Python 3.9.7
+
+
 # Setup: 
 Navigate to backend folder and run `python ./manage.py makemigrations` followed by `python ./manage.py migrate`
 
